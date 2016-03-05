@@ -21,7 +21,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntitySpawned(self, entity)
+{
+    print("OnEntitySpawned works!")
+}
 ```
 
  * Called from BaseNetworkable.Spawn
@@ -49,7 +52,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntityTakeDamage(self, entity, hitInfo)
+{
+    print("OnEntityTakeDamage works!")
+}
 ```
 
  * Called from BaseCombatEntity.Hurt
@@ -79,7 +85,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntityDeath(self, entity, hitInfo)
+{
+    print("OnEntityDeath works!")
+}
 ```
 
  * Called from BaseCombatEntity.Die
@@ -108,7 +117,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntityEnter(self, triggerBase, entity)
+{
+    print("OnEntityEnter works!")
+}
 ```
 
  * Called from TriggerBase.OnEntityEnter
@@ -136,7 +148,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntityLeave(self, triggerBase, entity)
+{
+    print("OnEntityLeave works!")
+}
 ```
 
  * Called from TriggerBase.OnEntityLeave
@@ -164,7 +179,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnEntityGroundMissing(self, entity)
+{
+    print("OnEntityGroundMissing works!")
+}
 ```
 
  * Called from DestroyOnGroundMissing.OnGroundMissing
