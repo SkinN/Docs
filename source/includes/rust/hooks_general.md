@@ -20,7 +20,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnServerInitialized(self)
+{
+    print("OnServerInitialized works!")
+}
 ```
 
  * Called from ServerMgr.Initialize
@@ -47,7 +50,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnServerSave(self)
+{
+    print("OnServerSave works!")
+}
 ```
 
  * Called from SaveRestore.DoAutomatedSave
@@ -74,7 +80,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnServerShutdown(self)
+{
+    print("OnServerShutdown works!")
+}
 ```
 
  * Called from ConsoleGlobal
@@ -102,7 +111,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnTick(self)
+{
+    print("OnTick works!")
+}
 ```
 
  * Called from ServerMgr.DoTick
@@ -129,7 +141,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def BuildServerTags(self, tags)
+{
+    print("BuildServerTags works!")
+}
 ```
 
  * Called from RustCore.ModifyTags
@@ -156,7 +171,10 @@ We need a Lua example here
 ```
 
 ``` python
-We need a Python example here
+def OnRunCommand(self, arg)
+{
+    print("OnRunCommand works!")
+}
 ```
 
  * Called from ConsoleSystem.Run_Internal, ConsoleSystem.Run_Unrestricted, and ConsoleSystem.SystemRealm_Normal
